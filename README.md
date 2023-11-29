@@ -1,16 +1,17 @@
 # bookmarket
-
-## Project setup
+- 图书商店
+- 项目来源  https://www.cnblogs.com/anding/p/17459100.html 感谢老哥
+## 依赖安装
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### 开发环境下运行
 ```
-npm run serve
+npm run dev
 ```
 
-### Compiles and minifies for production
+### 打包
 ```
 npm run build
 ```
