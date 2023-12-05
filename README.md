@@ -16,7 +16,5 @@ npm run dev
 npm run build
 ```
 
-### Customize configuration
+### vue配置
 See [Configuration Reference](https://cli.vuejs.org/config/).
-# bookmarket
-vue project

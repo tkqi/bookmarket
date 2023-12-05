@@ -1,28 +1,30 @@
 <template>
   <el-container class="main">
-    <el-header>
-      <topbar/>
-    </el-header>
-    <el-container>
-      <el-aside width="200px">Aside</el-aside>
-      <el-main>Main</el-main>
+    <el-aside width="200px">Aside</el-aside>
+    <el-container direction="vertical">
+      <el-header>
+        <topbar />
+      </el-header>
+      <el-container>
+        <el-main>Main</el-main>
+      </el-container>
     </el-container>
     <el-footer>footer</el-footer>
   </el-container>
 </template>
 
 <script>
-import topbar from './TopBar';
+import topbar from './Main/TopBar.vue';
 
-export default{
-    components:{
-      topbar
-    },
-    data(){
-      return{
+export default {
+  components: {
+    topbar
+  },
+  data() {
+    return {
 
-      }
     }
+  }
 }
 </script>
 
@@ -49,12 +51,12 @@ export default{
   line-height: 160px;
 }
 
-.main{
+.main {
   height: 100%;
 }
 
 html,
-body{
+body {
   height: 100%;
 }
 </style>
